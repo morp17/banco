@@ -18,7 +18,7 @@ public class Conexao {
 
 	protected Connection getConnection() throws SQLException {
 		// URL de conexão com o banco de dados
-		String url = "jdbc:mysql://localhost:3306/banco";
+		String url = "jdbc:mysql://127.0.0.1:3306/banco";
 		// Conecta utilizando a URL, usuário e senha.
 		Connection conn = DriverManager.getConnection(url, "root", "");
 		return conn;
